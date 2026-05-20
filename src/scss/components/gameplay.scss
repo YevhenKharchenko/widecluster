@@ -1,0 +1,95 @@
+.gameplay-section {
+}
+
+.gameplay-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.gameplay-container {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-swiper-container {
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.gameplay-swiper-container.show {
+  visibility: visible;
+}
+
+.gameplay-swiper-wrapper {
+  @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+
+.gameplay-slide {
+  box-shadow: inset 0 0 14px 1px rgba(42, 44, 54, 0.5);
+  background: #39888e;
+  border-radius: 16px;
+  padding: 16px 24px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 270px;
+
+  @include media(desktop) {
+    padding: 16px;
+    max-width: 210px;
+  }
+}
+
+.gameplay-img {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-title {
+  font-family: 'Manjari', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #e7f3f5;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-text {
+  font-family: 'Manjari', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #e7f3f5;
+  max-width: 160px;
+
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}

@@ -1,0 +1,106 @@
+.features-section {
+  @include media(desktop) {
+  }
+}
+
+.features-bg-wrapper {
+  padding-top: 64px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.features-container {
+  padding: 0;
+
+  @include media(desktop) {
+  }
+}
+
+.features-content-wrapper {
+  padding: 0 20px;
+
+  @include media(desktop) {
+    padding: 0 120px;
+  }
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 32px;
+  }
+}
+
+.features-slide {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    flex-direction: column;
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+.features-icon {
+  min-width: 48px;
+
+  @include media(desktop) {
+  }
+}
+
+.features-item-text-wrapper {
+  width: 100%;
+
+  @include media(desktop) {
+  }
+}
+
+.features-item-title {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #82b4b8;
+  font-family: 'Manjari', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #2a2c36;
+  margin-bottom: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.features-item-text {
+  font-family: 'Manjari', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #2a2c36;
+
+  @include media(desktop) {
+  }
+}
+
+.features-img {
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+  }
+}

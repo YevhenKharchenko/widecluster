@@ -1,0 +1,86 @@
+.progression-section {
+  @include media(desktop) {
+  }
+}
+
+.progression-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.progression-container {
+  @include media(desktop) {
+  }
+}
+
+.progression-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.progression-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 37px;
+  }
+}
+
+.progression-slide {
+  box-shadow: inset 0 0 14px 1px rgba(42, 44, 54, 0.5);
+  background: #39888e;
+  border-radius: 16px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 166px;
+
+  @include media(desktop) {
+    padding: 32px 24px;
+    max-width: 250px;
+  }
+}
+
+.progression-img {
+  @include media(desktop) {
+  }
+}
+
+.progression-item-title {
+  font-family: 'Manjari', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #e7f3f5;
+
+  @include media(desktop) {
+  }
+}
+
+.progression-item-text {
+  font-family: 'Manjari', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #e7f3f5;
+
+  @include media(desktop) {
+  }
+}
