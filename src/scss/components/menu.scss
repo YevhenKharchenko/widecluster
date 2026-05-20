@@ -1,6 +1,7 @@
 .context-menu {
   display: none;
-  background: #e7f3f5;
+  background: #1a1c28;
+  border-bottom: 1px solid #516073;
   border-radius: 0 0 16px 16px;
   padding: 32px 16px 32px;
   max-width: 375px;
@@ -34,12 +35,11 @@
   justify-content: center;
   align-items: center;
   padding: 8px 0px;
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Afacad', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  text-transform: uppercase;
-  color: #2a2c36;
+  color: #fafafa;
   opacity: 0.8;
   width: 100%;
   margin-left: auto;

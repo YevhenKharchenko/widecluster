@@ -1,5 +1,5 @@
 .header {
-  background: #e7f3f5;
+  background: #1a1c28;
   padding: 8px 0;
   position: fixed;
   width: 100%;
@@ -51,7 +51,7 @@
     align-items: stretch;
     justify-content: end;
     width: 100%;
-    gap: 32px;
+    gap: 65px;
   }
 }
 
@@ -67,12 +67,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Manjari', sans-serif;
+    font-family: 'Afacad', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
-    text-transform: uppercase;
-    color: #2a2c36;
+    color: #fafafa;
     opacity: 0.8;
     width: 100%;
     max-width: max-content;
@@ -114,9 +113,9 @@
 }
 
 .menu-icon {
-  stroke: #2a2c36;
+  stroke: #fafafa;
 }
 
 .close-icon {
-  stroke: #2a2c36;
+  stroke: #fafafa;
 }

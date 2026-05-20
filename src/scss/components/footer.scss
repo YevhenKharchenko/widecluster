@@ -1,17 +1,14 @@
 .footer {
-  background: #2a2c36;
-  border-top: 1px solid #82b4b8;
+  background: #1a1c28;
 
   @include media(desktop) {
   }
 }
 
 .footer-bg-wrapper {
-  padding: 64px 0;
+  padding: 80px 0;
 
   @include media(desktop) {
-    padding-top: 80px;
-    padding-bottom: 66px;
   }
 }
 
@@ -50,10 +47,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 32px;
+  gap: 124px;
 
   @include media(desktop) {
-    gap: 92px;
   }
 }
 
@@ -61,25 +57,25 @@
 }
 
 .footer-link {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Afacad', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #e7f3f5;
+  color: #fafafa;
 
   @include media(desktop) {
   }
 }
 
 .footer-text {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Afacad', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #e7f3f5;
+  color: #fafafa;
 
   @include media(desktop) {
     order: 1;
