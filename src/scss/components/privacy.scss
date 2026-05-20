@@ -1,5 +1,5 @@
 .policy-section {
-  background: #e7f3f5;
+  background: #fafafa;
   padding-top: 104px;
   padding-bottom: 40px;
 
@@ -15,13 +15,21 @@
 }
 
 .policy-section h1 {
-  font-family: 'Cantora One', sans-serif;
+  text-shadow:
+    -2px 0 #1a1c28,
+    2px 0 #1a1c28,
+    0 -2px #1a1c28,
+    0 2px #1a1c28,
+    -2px -2px #1a1c28,
+    2px -2px #1a1c28,
+    -2px 2px #1a1c28,
+    2px 2px #1a1c28;
+  font-family: 'Racing Sans One', sans-serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 1;
-  text-transform: uppercase;
   text-align: center;
-  color: #575966;
+  color: #fafafa;
   margin-bottom: 40px;
 
   @include media(desktop) {
@@ -31,12 +39,12 @@
 }
 
 .policy-section h2 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Afacad', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: #575966;
+  color: #516073;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -44,12 +52,12 @@
 }
 
 .policy-section h3 {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Afacad', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: #575966;
+  color: #516073;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -57,11 +65,11 @@
 }
 
 .policy-section p {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Afacad', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  color: #2a2c36;
+  color: #1a1c28;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -69,11 +77,11 @@
 }
 
 .policy-section li {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Afacad', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  color: #2a2c36;
+  color: #1a1c28;
   margin-bottom: 16px;
 
   @include media(desktop) {

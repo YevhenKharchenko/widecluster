@@ -37,7 +37,7 @@
 }
 
 .faq-list-item {
-  padding: 12px 24px;
+  padding: 0 12px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -49,7 +49,7 @@
 }
 
 .faq-item-question-wrapper {
-  border-bottom: 2px solid #82b4b8;
+  border-bottom: 2px solid #a7ceda;
   padding-top: 8px;
   padding-bottom: 6px;
 
@@ -93,11 +93,11 @@
 }
 
 .faq-btn-text {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Afacad', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.5;
-  color: #2a2c36;
+  color: #1a1c28;
   text-align: left;
 
   @include media(desktop) {
@@ -105,11 +105,11 @@
 }
 
 .faq-bottom-text {
-  font-family: 'Manjari', sans-serif;
+  font-family: 'Afacad', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2a2c36;
+  color: #1a1c28;
 
   @include media(desktop) {
   }
